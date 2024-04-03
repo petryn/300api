@@ -30,4 +30,4 @@ następnie utworzy rekord dla nowego autora.
 
 - `git clone` into folder
 - run `composer install`
-- run `php artisan migrate`
+- run `composer run-script init-api`
