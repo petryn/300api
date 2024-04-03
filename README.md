@@ -18,9 +18,9 @@ autorze wraz z informacjami o jego książkach.
 dodanej książki w kolumnie modelu `Author`.
 - Dodaj podstawowe testy jednostkowe dla `POST /api/books` oraz `DELETE
 /api/books/{id}`.
+- Wykorzystaj `Sanctum` do uwierzytelnienia `POST /api/books`
 
 ### Todo:
-- Wykorzystaj `Sanctum` do uwierzytelnienia `POST /api/books`
 - Dodaj filtr do `GET /api/authors?search={query}`, który pozwoli na pobranie listy autorów, którzy w tytułach swoich książek zwierają ciąg znaków podany w parametrze.
 - Dodaj komendę Artisana, która po uruchomieniu zapyta o imię i nazwisko a
 następnie utworzy rekord dla nowego autora.
